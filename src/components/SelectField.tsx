@@ -3,16 +3,16 @@ import {
 	useController,
 	useFormContext,
 } from "react-hook-form";
-import { Label } from "@/components/ui/label";
+import { Label } from "../components/ui/label";
 import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/components/ui/select";
+} from "../components/ui/select";
 
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import * as SelectPrimitive from "@radix-ui/react-select";
 import Error from "./Error";
 

@@ -10,10 +10,7 @@
 		"moduleResolution": "Node",
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"strict": true,
-		"paths": {
-			"@/*": ["./src/*"]
-		}
+		"strict": true
 	},
 
 	"include": ["src"],
