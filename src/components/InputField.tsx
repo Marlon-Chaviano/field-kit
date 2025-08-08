@@ -1,10 +1,12 @@
 import { RegisterOptions, useFormContext } from "react-hook-form";
 import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
+import Error from "./Error";
 
 interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
 	name: string;
 	rules?: RegisterOptions;
+	errorClassName: string;
 	label?: string;
 }
 
@@ -13,6 +15,7 @@ function InputField({
 	label,
 	rules,
 	className,
+	errorClassName,
 	...props
 }: InputFieldProps) {
 	const {
@@ -44,7 +47,10 @@ function InputField({
 				{...props}
 			/>
 			{error && (
-				<p className="text-sm text-red-500">{(error as any).message}</p>
+				<Error
+					className={cn("", errorClassName)}
+					message={error.message as string}
+				/>
 			)}
 		</div>
 	);
