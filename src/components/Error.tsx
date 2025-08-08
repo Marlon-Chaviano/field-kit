@@ -1,6 +1,6 @@
 import { cn } from "../lib/utils";
 import React from "react";
-import "../styles/globals.css";
+import "../styles.css";
 
 interface ErrorProps extends React.ComponentProps<"p"> {
 	message: string;

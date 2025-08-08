@@ -2,7 +2,7 @@ import { RegisterOptions, useFormContext } from "react-hook-form";
 import { cn } from "../lib/utils";
 import { Input } from "../components/ui/input";
 import Error from "./Error";
-import "../styles/globals.css";
+import "../styles.css";
 
 interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
 	name: string;
