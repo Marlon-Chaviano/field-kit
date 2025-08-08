@@ -1,11 +1,13 @@
 {
 	"name": "@marlon-chaviano/field-kit",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"description": "A collection of reusable and accessible form components built with React, TailwindCSS, and fully integrated with React Hook Form. This library speeds up form development by providing customizable, pre-styled input components that follow best practices in accessibility (ARIA), validation, and responsiveness.",
 	"main": "dist/index.js",
+	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
-		"dist"
+		"dist",
+		"src"
 	],
 	"exports": {
 		".": {

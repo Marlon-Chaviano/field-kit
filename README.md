@@ -1,11 +1,11 @@
 # 🧰 field-kit
 
-**Field Kit** es una librería de componentes de formularios accesibles y reutilizables para **React**, basada en **React Hook Form** y **TailwindCSS**. Su objetivo es acelerar el desarrollo de formularios modernos, validables y accesibles desde el primer momento.
+**Field Kit** es una librería de componentes de formularios accesibles y reutilizables para **React**, basada en **React Hook Form** , **shadcn** y **TailwindCSS**. Su objetivo es acelerar el desarrollo de formularios modernos, validables y accesibles desde el primer momento.
 
 ## ✨ Características
 
 - Integración directa con [`react-hook-form`](https://react-hook-form.com/)
-- Componentes estilizados con TailwindCSS y listos para producción
+- Componentes de shadcn.ui estilizados con TailwindCSS y listos para producción
 - Accesibilidad mejorada con soporte para ARIA
 - Preparado para validaciones dinámicas
 - Fácil de extender con nuevos componentes
@@ -90,20 +90,6 @@ function MyForm() {
 | `label`    | `string` _(opcional)_                   | Etiqueta del campo                                |
 | `rules`    | `RegisterOptions` _(opcional)_          | Reglas de validación                              |
 | `...props` | `InputHTMLAttributes<HTMLInputElement>` | Cualquier otra prop válida de un `<input />`      |
-
----
-
-## 🧱 Estructura del paquete
-
-```
-/src
-  /components
-    /ui
-      input.tsx        → Estilizado base
-    InputField.tsx      → Componente actual publicado
-  /lib
-    utils.ts           → Función cn para combinar clases (tipo clsx)
-```
 
 ---
 
