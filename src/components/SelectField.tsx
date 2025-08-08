@@ -13,9 +13,13 @@ import {
 } from "@/components/ui/select";
 
 import { cn } from "@/lib/utils";
-import { Option } from "./types";
 import * as SelectPrimitive from "@radix-ui/react-select";
 import Error from "./Error";
+
+type Option = {
+	label: string;
+	value: string;
+};
 
 interface SelectFieldProps
 	extends React.ComponentProps<typeof SelectPrimitive.Root> {
