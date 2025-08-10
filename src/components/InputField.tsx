@@ -34,7 +34,6 @@ function InputField({
 					className="text-sm font-medium"
 				>
 					{label}
-					<span className="text-red-600">*</span>
 					{rules?.required && <span className="text-red-600">*</span>}
 				</label>
 			)}

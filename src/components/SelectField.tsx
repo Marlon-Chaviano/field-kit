@@ -70,7 +70,9 @@ function SelectField({
 				onValueChange={field.onChange}
 			>
 				<SelectTrigger
-					className={cn("", triggerClassName)}
+					className={cn("border", triggerClassName, {
+						"border-red-500": error,
+					})}
 					id={name}
 				>
 					<SelectValue placeholder={placeholder} />
