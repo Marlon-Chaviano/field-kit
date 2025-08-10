@@ -27,7 +27,7 @@ interface SelectFieldProps
 	name: string;
 	label?: string;
 	options: Option[];
-	errorClassName: string;
+	errorClassName?: string;
 	placeholder?: string;
 	rules?: RegisterOptions;
 	className?: string;

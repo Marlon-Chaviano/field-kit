@@ -7,7 +7,7 @@ import "../styles.css";
 interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
 	name: string;
 	rules?: RegisterOptions;
-	errorClassName: string;
+	errorClassName?: string;
 	label?: string;
 }
 
