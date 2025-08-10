@@ -1,13 +1,12 @@
 {
 	"name": "@marlon-chaviano/field-kit",
-	"version": "1.0.14",
+	"version": "1.0.15",
 	"description": "A collection of reusable and accessible form components built with React, TailwindCSS, and fully integrated with React Hook Form...",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
-		"dist",
-		"src/styles/globals.css"
+		"dist"
 	],
 	"exports": {
 		".": {
@@ -17,7 +16,7 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "tsc && cp src/styles.css dist/",
+		"build": "tsc",
 		"prepublishOnly": "npm run build"
 	},
 	"keywords": [
