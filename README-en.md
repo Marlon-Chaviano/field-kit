@@ -82,14 +82,15 @@ function MyForm() {
 }
 ```
 
-#### 🔧 Component Props
+#### 🔧 InputField Props
 
-| Prop       | Type                                    | Description                               |
-| ---------- | --------------------------------------- | ----------------------------------------- |
-| `name`     | `string`                                | Field name (required for React Hook Form) |
-| `label`    | `string` _(optional)_                   | Field label                               |
-| `rules`    | `RegisterOptions` _(optional)_          | Validation rules                          |
-| `...props` | `InputHTMLAttributes<HTMLInputElement>` | Any other valid `<input />` props         |
+| Prop             | Type                                    | Description                                 |
+| ---------------- | --------------------------------------- | ------------------------------------------- |
+| `name`           | `string`                                | Field name (required for React Hook Form)   |
+| `label`          | `string` _(optional)_                   | Field label                                 |
+| `rules`          | `RegisterOptions` _(optional)_          | Validation rules                            |
+| `errorClassName` | `string`                                | Tailwind or css className for error message |
+| `...props`       | `InputHTMLAttributes<HTMLInputElement>` | Any other valid `<input />` props           |
 
 ---
 

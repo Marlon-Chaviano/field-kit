@@ -84,12 +84,13 @@ function MyForm() {
 
 #### 🔧 Props del componente
 
-| Prop       | Tipo                                    | Descripción                                       |
-| ---------- | --------------------------------------- | ------------------------------------------------- |
-| `name`     | `string`                                | Nombre del campo (requerido para React Hook Form) |
-| `label`    | `string` _(opcional)_                   | Etiqueta del campo                                |
-| `rules`    | `RegisterOptions` _(opcional)_          | Reglas de validación                              |
-| `...props` | `InputHTMLAttributes<HTMLInputElement>` | Cualquier otra prop válida de un `<input />`      |
+| Prop             | Tipo                                    | Descripción                                       |
+| ---------------- | --------------------------------------- | ------------------------------------------------- |
+| `name`           | `string`                                | Nombre del campo (requerido para React Hook Form) |
+| `label`          | `string` _(opcional)_                   | Etiqueta del campo                                |
+| `rules`          | `RegisterOptions` _(opcional)_          | Reglas de validación                              |
+| `errorClassName` | `string`                                | Tailwind or css className for error message       |
+| `...props`       | `InputHTMLAttributes<HTMLInputElement>` | Any other valid `<input />` props                 |
 
 ---
 
