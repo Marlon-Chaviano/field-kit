@@ -11,7 +11,7 @@ interface FormFieldProps extends React.ComponentProps<"textarea"> {
 	rules?: RegisterOptions;
 }
 
-export function TextAreaField({
+function TextAreaField({
 	name,
 	label,
 	rules,
@@ -48,3 +48,4 @@ export function TextAreaField({
 		</div>
 	);
 }
+export default TextAreaField;
